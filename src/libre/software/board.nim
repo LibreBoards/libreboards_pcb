@@ -11,7 +11,7 @@ type
       boardIsPublic*: bool
       boardIsArchived*: bool
       boardIsTemplate*: bool
-      
+
 
       boardType*: string
       boardName*: string
@@ -38,6 +38,3 @@ type
 
       # TODO: We can implement enums, which allow us to 
       # Pick the needed things out, for example the boardType.
-
-
-      
