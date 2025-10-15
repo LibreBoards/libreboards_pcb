@@ -1,6 +1,18 @@
 type
     Board* = object
 
+      boardId*: string
+      boardProjectId*: string
+      boardUserId*: string
+      boardCreatedAt*: string
+      boardUpdatedAt*: string
+      boardDeletedAt*: string
+      boardIsDeleted*: bool
+      boardIsPublic*: bool
+      boardIsArchived*: bool
+      boardIsTemplate*: bool
+      
+
       boardType*: string
       boardName*: string
       boardVersion*: string
