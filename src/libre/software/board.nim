@@ -17,6 +17,10 @@ type
       boardName*: string
       boardVersion*: string
       boardDescription*: string
+      boardTags*: seq[string]
+      boardCategory*: string
+      boardQuantity*: int
+      boardPrice*: float
       
       boardLayerCount*: int
 
